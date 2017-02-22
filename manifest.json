@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+
+  "name": "Deep Chrome Extension",
+  "description": "Browse the deep web.",
+  "version": "1.0",
+
+  "browser_action": {
+      "default_icon": "brain.png",
+      "default_popup": "deep-popup.html"
+  }
+}
