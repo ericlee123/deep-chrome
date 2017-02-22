@@ -8,5 +8,13 @@
   "browser_action": {
       "default_icon": "brain.png",
       "default_popup": "deep-popup.html"
-  }
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["deep-meme.js"],
+      "run_at": "document_end"
+    }
+  ]
 }
