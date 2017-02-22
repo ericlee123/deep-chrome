@@ -3,7 +3,7 @@
 
   "name": "Deep to **_Deep_**",
   "description": "Experience deep memes.",
-  "version": "1.0",
+  "version": "1.1",
 
   "browser_action": {
       "default_icon": "brain.png",
